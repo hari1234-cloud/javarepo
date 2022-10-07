@@ -16,7 +16,7 @@ class ConcreteEx extends AbstractDemo {
 
 	public static void main(String args[]) {
 		ConcreteEx obj = new ConcreteEx();
-		obj.displayText();
+		obj.displayText(); 
 	}
 
 }
