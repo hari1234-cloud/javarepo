@@ -8,9 +8,9 @@ public class Armstrong_Number {
 		{
 			rem=num%10;
 			num=num/10;
-			rev=rev+(rem*rem*rem);
+			rev=rev+(rem*rem*rem);  //Sum of 3 cubic number is equal to number itself.
 		}
-		System.out.println("Reverse Number is: " +rev);
+		System.out.println("Reverse Number is: " +rev);   
 		if(temp==rev)
 		{
 			System.out.println("Armstrong Number");
