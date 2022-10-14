@@ -48,7 +48,7 @@ Key Points about HashMap
 
 Methods in HashMap:
 ------------------
-1.put(Object key, Object value)
+1. put(Object key, Object value)
 2. void putAll(Map m)  
 3. boolean containsKey(key)
 4. boolean containsValue(value)
