@@ -12,7 +12,6 @@ public class ThirdClass extends ChildClassExample {
 		System.out.println(t.i);   
 		
 		t.doSomething();
-
 	}
 
 }

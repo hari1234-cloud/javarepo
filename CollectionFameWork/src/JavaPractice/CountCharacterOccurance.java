@@ -8,12 +8,12 @@ public class CountCharacterOccurance {
 		
 		int total_count=s.length(); // total length
 		
-		int totalcount_afterRemove=s.replace("j","").length(); // after remove a's
+		int totalcount_afterRemove=s.replace("J","").length(); // after remove a's
 		
 		int count =total_count-totalcount_afterRemove;
 		
 		System.out.println("Number of Occurances a is:" +count);
 
 	}
-
 }
+

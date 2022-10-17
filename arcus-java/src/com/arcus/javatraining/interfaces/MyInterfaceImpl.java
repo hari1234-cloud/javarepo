@@ -11,7 +11,6 @@ public class MyInterfaceImpl implements MyInterface,Animal {
 	}
 
 	public static void main(String args[]) {
-
 		MyInterfaceImpl myInstance = new MyInterfaceImpl();
 		String mycompany = MyInterface.COMPANY_NAME;
 		System.out.println(mycompany);
@@ -20,8 +19,7 @@ public class MyInterfaceImpl implements MyInterface,Animal {
 
 		;
 	}
-
-	@Override
+@Override
 	public void animalSound() {
 		// TODO Auto-generated method stub
 		

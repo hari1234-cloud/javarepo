@@ -12,13 +12,15 @@ public class WriteDatIntoTextFile {
 		BufferedWriter bw =new BufferedWriter(fw);
 		
 		bw.write("Java for new begineers");
+		bw.newLine();
 		bw.write("Core Jav");
+		bw.newLine();
 		bw.write("Advance JAVA");
+		bw.newLine();
 		
 		System.out.println("Finished!!!!");
 		
 		bw.close();
-
 	}
 
 }

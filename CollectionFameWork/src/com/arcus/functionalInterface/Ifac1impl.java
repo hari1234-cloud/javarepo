@@ -6,8 +6,10 @@ public class Ifac1impl implements Iface1 {
 
 		Ifac1impl obj = new Ifac1impl();
 		obj.method();
-		obj.method1();
-	
+		obj.method3();
+		
+		
+	//System.out.println(method1);
 
 	}
 	@Override
@@ -16,5 +18,6 @@ public class Ifac1impl implements Iface1 {
 		
 		return (250);
 	}
+	
 
 }

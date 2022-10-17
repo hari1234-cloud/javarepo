@@ -13,8 +13,6 @@ public class Employee implements Comparable<Employee> {
 		this.empID = empID;
 		this.empName = empName;
 	}
-
-	
 	Employee() {
 	
 	}
@@ -37,8 +35,6 @@ public class Employee implements Comparable<Employee> {
 	public void setEmpName(String empName) {
 		this.empName = empName;
 	}
-
-
 	@Override
 	public int compareTo(Employee o) {
 

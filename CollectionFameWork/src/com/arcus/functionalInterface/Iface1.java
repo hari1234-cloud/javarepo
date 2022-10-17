@@ -13,7 +13,7 @@ public interface Iface1 {
 		System.out.println("Default interface");
 	}
 	
-	default void method1() {
+	default void method3() {
 		System.out.println("Default interface 1");
 	}
 	public static void smethod() {

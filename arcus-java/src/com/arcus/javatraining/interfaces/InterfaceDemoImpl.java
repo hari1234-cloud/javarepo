@@ -13,7 +13,6 @@ public class InterfaceDemoImpl implements InterfaceDemo {
 	public static void main(String args[]) {
 
 		// Central c = new Central();
-
 		InterfaceDemoImpl ifaceDemo1 = new InterfaceDemoImpl();
 
 		
